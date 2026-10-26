@@ -1,0 +1,10 @@
+{
+  "name": "cvp-stage2-harness",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MCP SDK client harness for the CVE-2025-53110 allowed-directory bypass before/after reproduction",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2"
+  }
+}

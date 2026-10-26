@@ -1,0 +1,37 @@
+{
+  "captured_at_iso": "2026-10-26T05:20:23.101Z",
+  "node": "v24.14.1",
+  "npm": "11.11.0",
+  "os": "Windows_NT 10.0.26200 x64",
+  "platform": "win32",
+  "host_note": "John's CVP work machine (Windows 11).",
+  "sdk_version": "1.32.2",
+  "client_script_sha256": "c33733061dc6ed3e01679c008eee5aa0dab2a8100a5e101d210054815b05996d",
+  "fixtures": {
+    "root": "<USER_HOME>\\AppData\\Local\\Temp\\cvp-stage2-53110-KkaZYF",
+    "allowed_directory": "<USER_HOME>\\AppData\\Local\\Temp\\cvp-stage2-53110-KkaZYF\\workspace",
+    "sibling_outside": "<USER_HOME>\\AppData\\Local\\Temp\\cvp-stage2-53110-KkaZYF\\workspace_secret",
+    "far_outside": "<USER_HOME>\\AppData\\Local\\Temp\\cvp-stage2-53110-KkaZYF\\far_outside",
+    "files": {
+      "inside": "<USER_HOME>\\AppData\\Local\\Temp\\cvp-stage2-53110-KkaZYF\\workspace\\inside.txt",
+      "secret": "<USER_HOME>\\AppData\\Local\\Temp\\cvp-stage2-53110-KkaZYF\\workspace_secret\\secret.txt",
+      "far": "<USER_HOME>\\AppData\\Local\\Temp\\cvp-stage2-53110-KkaZYF\\far_outside\\other.txt"
+    },
+    "nonce": "63de634134a1",
+    "markers": {
+      "inside": "CVP_INSIDE_ALLOWED_53110_63de634134a1",
+      "secret": "CVP_SECRET_SIBLING_OUTSIDE_53110_63de634134a1",
+      "far": "CVP_FAR_OUTSIDE_CONTROL_53110_63de634134a1"
+    },
+    "marker_hashes": {
+      "inside": "05ec823752d70d6ab9497ba3d382dd279acde8f3f61577411c96a776ea432f4e",
+      "secret": "515eed541901ebb67d95ca4086ec908ece3932345314b4588c84367d4726f984",
+      "far": "091edf606f8508e13f6eb4d1e65bf69955baa8f8b8cdabcd3881eca6ce9cb498"
+    },
+    "containment_facts": {
+      "sibling_is_child_of_allowed": false,
+      "sibling_shares_string_prefix": true,
+      "far_outside_shares_prefix": false
+    }
+  }
+}

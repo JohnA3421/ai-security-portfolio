@@ -1,0 +1,11 @@
+{
+  "source_repository": "https://github.com/modelcontextprotocol/servers",
+  "commit": "82acf2aabf47bd462606a0d879e4849c26b2afae",
+  "filesystem_package_version": "2.0.1",
+  "node": "v24.22.1",
+  "npm": "11.9.0",
+  "os": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "architecture": "x86_64",
+  "python": "3.12.14",
+  "tracked_source_diff": ""
+}

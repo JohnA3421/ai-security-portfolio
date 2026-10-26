@@ -1,0 +1,110 @@
+{
+  "env_ref": "run-env.json",
+  "role": "affected",
+  "expectVulnerable": true,
+  "server_package_version": "2025.1.14",
+  "server_info": {
+    "name": "secure-filesystem-server",
+    "version": "0.2.0"
+  },
+  "launched_allowed_dir": "<USER_HOME>\\AppData\\Local\\Temp\\cvp-stage2-53110-KkaZYF\\workspace",
+  "read_tool_used": "read_file",
+  "tool_names": [
+    "read_file",
+    "read_multiple_files",
+    "write_file",
+    "edit_file",
+    "create_directory",
+    "list_directory",
+    "directory_tree",
+    "move_file",
+    "search_files",
+    "get_file_info",
+    "list_allowed_directories"
+  ],
+  "requests": {
+    "list_allowed_directories": {
+      "request": {
+        "tool": "list_allowed_directories",
+        "arguments": {}
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Allowed directories:\n<USER_HOME>\\AppData\\Local\\Temp\\cvp-stage2-53110-KkaZYF\\workspace"
+          }
+        ]
+      },
+      "threw": false
+    },
+    "attack_read_sibling_secret": {
+      "request": {
+        "tool": "read_file",
+        "arguments": {
+          "path": "<USER_HOME>\\AppData\\Local\\Temp\\cvp-stage2-53110-KkaZYF\\workspace_secret\\secret.txt"
+        }
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "CVP_SECRET_SIBLING_OUTSIDE_53110_63de634134a1"
+          }
+        ]
+      },
+      "threw": false
+    },
+    "control_read_inside": {
+      "request": {
+        "tool": "read_file",
+        "arguments": {
+          "path": "<USER_HOME>\\AppData\\Local\\Temp\\cvp-stage2-53110-KkaZYF\\workspace\\inside.txt"
+        }
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "CVP_INSIDE_ALLOWED_53110_63de634134a1"
+          }
+        ]
+      },
+      "threw": false
+    },
+    "control_read_far_outside": {
+      "request": {
+        "tool": "read_file",
+        "arguments": {
+          "path": "<USER_HOME>\\AppData\\Local\\Temp\\cvp-stage2-53110-KkaZYF\\far_outside\\other.txt"
+        }
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Error: Access denied - path outside allowed directories: <USER_HOME>\\AppData\\Local\\Temp\\cvp-stage2-53110-KkaZYF\\far_outside\\other.txt not in <USER_HOME>\\AppData\\Local\\Temp\\cvp-stage2-53110-KkaZYF\\workspace"
+          }
+        ],
+        "isError": true
+      },
+      "threw": false
+    }
+  },
+  "server_stderr": "Secure MCP Filesystem Server running on stdio\nAllowed directories: [\n  'C:\\\\Users\\\\paust\\\\AppData\\\\Local\\\\Temp\\\\cvp-stage2-53110-KkaZYF\\\\workspace'\n]\n",
+  "observations": {
+    "attack_isError": false,
+    "attack_returned_secret": true,
+    "attack_text": "CVP_SECRET_SIBLING_OUTSIDE_53110_63de634134a1",
+    "control_inside_isError": false,
+    "control_inside_returned_marker": true,
+    "control_far_isError": true,
+    "control_far_returned_marker": false
+  },
+  "classification": {
+    "vulnerable_behavior_observed": true,
+    "patched_behavior_observed": false,
+    "controls_ok": true,
+    "expectation_met": true
+  }
+}

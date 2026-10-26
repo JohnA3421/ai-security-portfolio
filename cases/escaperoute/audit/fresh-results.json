@@ -1,0 +1,56 @@
+{
+  "case_id": "STAGE2-53110",
+  "kind": "published_vulnerability_reproduction_calibration",
+  "not_original_discovery": true,
+  "cve": "CVE-2025-53110",
+  "ghsa": "GHSA-hc55-p739-j48w",
+  "credit": "Elad Beber (Cymulate), 'EscapeRoute' research",
+  "fix_commit": "cc99bdab",
+  "versions": {
+    "affected": "2025.1.14",
+    "fixed": "2025.7.1",
+    "baseline": "2.0.1"
+  },
+  "per_version_verdict": [
+    {
+      "role": "affected",
+      "version": "2025.1.14",
+      "expected": "vulnerable",
+      "vulnerable_behavior_observed": true,
+      "patched_behavior_observed": false,
+      "controls_ok": true,
+      "expectation_met": true
+    },
+    {
+      "role": "fixed",
+      "version": "2025.7.1",
+      "expected": "patched",
+      "vulnerable_behavior_observed": false,
+      "patched_behavior_observed": true,
+      "controls_ok": true,
+      "expectation_met": true
+    },
+    {
+      "role": "baseline",
+      "version": "2.0.1",
+      "expected": "patched",
+      "vulnerable_behavior_observed": false,
+      "patched_behavior_observed": true,
+      "controls_ok": true,
+      "expectation_met": true
+    }
+  ],
+  "only_variable_is_version": {
+    "client_script_sha256": "c33733061dc6ed3e01679c008eee5aa0dab2a8100a5e101d210054815b05996d",
+    "same_allowed_directory": true,
+    "same_fixture_request_paths": true,
+    "fixtures_unchanged": true,
+    "same_read_tool": true,
+    "read_tools_seen": [
+      "read_file"
+    ],
+    "same_attack_arguments": true
+  },
+  "fixtures_unchanged": true,
+  "overall_pass": true
+}

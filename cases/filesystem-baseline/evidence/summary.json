@@ -1,0 +1,23 @@
+{
+  "case_id": "BASE-001",
+  "kind": "expected_behavior_baseline",
+  "source_commit": "82acf2aabf47bd462606a0d879e4849c26b2afae",
+  "custom": {
+    "numTotalTests": 9,
+    "numPassedTests": 9,
+    "numFailedTests": 0,
+    "numPendingTests": 0,
+    "success": true
+  },
+  "upstream": {
+    "numTotalTests": 45,
+    "numPassedTests": 40,
+    "numFailedTests": 0,
+    "numPendingTests": 5,
+    "success": true
+  },
+  "typecheck_exit_code": 0,
+  "new_vulnerabilities": 0,
+  "external_reports_submitted": 0,
+  "review": "independent evidence review; no blind reproduction claimed"
+}

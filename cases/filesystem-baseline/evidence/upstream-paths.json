@@ -1,0 +1,592 @@
+{
+  "numTotalTestSuites": 11,
+  "numPassedTestSuites": 11,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 45,
+  "numPassedTests": 40,
+  "numFailedTests": 0,
+  "numPendingTests": 5,
+  "numTodoTests": 0,
+  "snapshot": {
+    "added": 0,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0,
+    "didUpdate": false
+  },
+  "startTime": 1792972953295,
+  "success": true,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "the allow-list boundary"
+          ],
+          "fullName": "the allow-list boundary refuses an absolute path outside, naming the allowed directories",
+          "status": "passed",
+          "title": "refuses an absolute path outside, naming the allowed directories",
+          "duration": 32.96125600000005,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "the allow-list boundary"
+          ],
+          "fullName": "the allow-list boundary refuses .. traversal out of the allowed directory",
+          "status": "passed",
+          "title": "refuses .. traversal out of the allowed directory",
+          "duration": 3.897958000000017,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "the allow-list boundary"
+          ],
+          "fullName": "the allow-list boundary refuses a sibling that merely shares the allowed directory's prefix",
+          "status": "passed",
+          "title": "refuses a sibling that merely shares the allowed directory's prefix",
+          "duration": 3.720716999999979,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "the allow-list boundary",
+            "a sibling whose name is the allowed directory plus a single quote"
+          ],
+          "fullName": "the allow-list boundary a sibling whose name is the allowed directory plus a single quote refuses to read it as a file",
+          "status": "passed",
+          "title": "refuses to read it as a file",
+          "duration": 3.2367440000000443,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "the allow-list boundary",
+            "a sibling whose name is the allowed directory plus a single quote"
+          ],
+          "fullName": "the allow-list boundary a sibling whose name is the allowed directory plus a single quote refuses to list it",
+          "status": "passed",
+          "title": "refuses to list it",
+          "duration": 3.8735719999999674,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "the allow-list boundary",
+            "a sibling whose name is the allowed directory plus a single quote"
+          ],
+          "fullName": "the allow-list boundary a sibling whose name is the allowed directory plus a single quote refuses to create it",
+          "status": "passed",
+          "title": "refuses to create it",
+          "duration": 4.025293999999974,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "the allow-list boundary",
+            "a sibling whose name is the allowed directory plus a single quote"
+          ],
+          "fullName": "the allow-list boundary a sibling whose name is the allowed directory plus a single quote refuses to write it as a file",
+          "status": "passed",
+          "title": "refuses to write it as a file",
+          "duration": 2.920659999999998,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "the allow-list boundary",
+            "a sibling whose name is the allowed directory plus a double quote"
+          ],
+          "fullName": "the allow-list boundary a sibling whose name is the allowed directory plus a double quote refuses to read it as a file",
+          "status": "passed",
+          "title": "refuses to read it as a file",
+          "duration": 3.285246000000029,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "the allow-list boundary",
+            "a sibling whose name is the allowed directory plus a double quote"
+          ],
+          "fullName": "the allow-list boundary a sibling whose name is the allowed directory plus a double quote refuses to list it",
+          "status": "passed",
+          "title": "refuses to list it",
+          "duration": 3.626027000000022,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "the allow-list boundary",
+            "a sibling whose name is the allowed directory plus a double quote"
+          ],
+          "fullName": "the allow-list boundary a sibling whose name is the allowed directory plus a double quote refuses to create it",
+          "status": "passed",
+          "title": "refuses to create it",
+          "duration": 8.36641000000003,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "the allow-list boundary",
+            "a sibling whose name is the allowed directory plus a double quote"
+          ],
+          "fullName": "the allow-list boundary a sibling whose name is the allowed directory plus a double quote refuses to write it as a file",
+          "status": "passed",
+          "title": "refuses to write it as a file",
+          "duration": 3.4184910000000173,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "the allow-list boundary",
+            "a sibling whose name is the allowed directory plus a space"
+          ],
+          "fullName": "the allow-list boundary a sibling whose name is the allowed directory plus a space refuses to read it as a file",
+          "status": "passed",
+          "title": "refuses to read it as a file",
+          "duration": 2.3381410000000074,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "the allow-list boundary",
+            "a sibling whose name is the allowed directory plus a space"
+          ],
+          "fullName": "the allow-list boundary a sibling whose name is the allowed directory plus a space refuses to list it",
+          "status": "passed",
+          "title": "refuses to list it",
+          "duration": 2.1486419999999953,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "the allow-list boundary",
+            "a sibling whose name is the allowed directory plus a space"
+          ],
+          "fullName": "the allow-list boundary a sibling whose name is the allowed directory plus a space refuses to create it",
+          "status": "passed",
+          "title": "refuses to create it",
+          "duration": 2.3813749999999914,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "the allow-list boundary",
+            "a sibling whose name is the allowed directory plus a space"
+          ],
+          "fullName": "the allow-list boundary a sibling whose name is the allowed directory plus a space refuses to write it as a file",
+          "status": "passed",
+          "title": "refuses to write it as a file",
+          "duration": 2.4443689999999947,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "the allow-list boundary"
+          ],
+          "fullName": "the allow-list boundary allows the allowed directory itself",
+          "status": "passed",
+          "title": "allows the allowed directory itself",
+          "duration": 3.6683400000000006,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "the allow-list boundary"
+          ],
+          "fullName": "the allow-list boundary refuses a path containing a NUL byte",
+          "status": "passed",
+          "title": "refuses a path containing a NUL byte",
+          "duration": 2.191665999999998,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "the allow-list boundary"
+          ],
+          "fullName": "the allow-list boundary refuses a ~ path outside the allowed directories, after expanding it",
+          "status": "passed",
+          "title": "refuses a ~ path outside the allowed directories, after expanding it",
+          "duration": 1.9496490000000222,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "the allow-list boundary"
+          ],
+          "fullName": "the allow-list boundary refuses a Windows drive path on a POSIX host rather than writing a literal file",
+          "status": "passed",
+          "title": "refuses a Windows drive path on a POSIX host rather than writing a literal file",
+          "duration": 2.640256000000022,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "relative paths"
+          ],
+          "fullName": "relative paths resolves against the first allowed directory, not the process cwd",
+          "status": "passed",
+          "title": "resolves against the first allowed directory, not the process cwd",
+          "duration": 3.644875000000013,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "relative paths"
+          ],
+          "fullName": "relative paths resolves against a later allowed directory when the first would escape",
+          "status": "passed",
+          "title": "resolves against a later allowed directory when the first would escape",
+          "duration": 5.6163119999999935,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "relative paths"
+          ],
+          "fullName": "relative paths falls back to the first allowed directory and refuses an escaping relative path",
+          "status": "passed",
+          "title": "falls back to the first allowed directory and refuses an escaping relative path",
+          "duration": 2.5953100000000404,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "relative paths"
+          ],
+          "fullName": "relative paths resolves against the process cwd when there are no allowed directories, and refuses it",
+          "status": "passed",
+          "title": "resolves against the process cwd when there are no allowed directories, and refuses it",
+          "duration": 5.111923999999988,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "symlinks"
+          ],
+          "fullName": "symlinks follows a symlink that stays inside",
+          "status": "passed",
+          "title": "follows a symlink that stays inside",
+          "duration": 3.6080100000000357,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "symlinks"
+          ],
+          "fullName": "symlinks refuses a symlink whose target is outside",
+          "status": "passed",
+          "title": "refuses a symlink whose target is outside",
+          "duration": 6.071767000000023,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "symlinks"
+          ],
+          "fullName": "symlinks refuses a new path under a symlinked directory that leaves (#4629)",
+          "status": "passed",
+          "title": "refuses a new path under a symlinked directory that leaves (#4629)",
+          "duration": 3.214471000000003,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "symlinks",
+            "spelled with other letter case on a case-insensitive file system"
+          ],
+          "fullName": "symlinks spelled with other letter case on a case-insensitive file system refuses create_directory under a symlink that leaves",
+          "status": "skipped",
+          "title": "refuses create_directory under a symlink that leaves",
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "symlinks",
+            "spelled with other letter case on a case-insensitive file system"
+          ],
+          "fullName": "symlinks spelled with other letter case on a case-insensitive file system refuses write_file when only an ancestor of the symlink is respelled",
+          "status": "skipped",
+          "title": "refuses write_file when only an ancestor of the symlink is respelled",
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "symlinks",
+            "spelled with other letter case on a case-insensitive file system"
+          ],
+          "fullName": "symlinks spelled with other letter case on a case-insensitive file system refuses a move_file destination under a symlink that leaves",
+          "status": "skipped",
+          "title": "refuses a move_file destination under a symlink that leaves",
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "symlinks",
+            "spelled with other letter case on a case-insensitive file system"
+          ],
+          "fullName": "symlinks spelled with other letter case on a case-insensitive file system still writes a new file under a respelled directory that stays inside",
+          "status": "skipped",
+          "title": "still writes a new file under a respelled directory that stays inside",
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "symlinks",
+            "spelled with other letter case on a case-insensitive file system"
+          ],
+          "fullName": "symlinks spelled with other letter case on a case-insensitive file system refuses to write under a respelled dangling symlink, reporting a missing parent",
+          "status": "skipped",
+          "title": "refuses to write under a respelled dangling symlink, reporting a missing parent",
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "symlinks"
+          ],
+          "fullName": "symlinks refuses to write through a dangling symlink, reporting a missing parent",
+          "status": "passed",
+          "title": "refuses to write through a dangling symlink, reporting a missing parent",
+          "duration": 2.686554000000001,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "symlinks"
+          ],
+          "fullName": "symlinks reports a realpath failure other than ENOENT as is",
+          "status": "passed",
+          "title": "reports a realpath failure other than ENOENT as is",
+          "duration": 3.2817099999999755,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "missing ancestors"
+          ],
+          "fullName": "missing ancestors accepts a path several levels below the last existing directory (#4629)",
+          "status": "passed",
+          "title": "accepts a path several levels below the last existing directory (#4629)",
+          "duration": 3.4422670000000153,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "missing ancestors"
+          ],
+          "fullName": "missing ancestors reports \"Parent directory does not exist\" when the allowed directory itself is gone",
+          "status": "passed",
+          "title": "reports \"Parent directory does not exist\" when the allowed directory itself is gone",
+          "duration": 2.358581000000015,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "Unicode normalization"
+          ],
+          "fullName": "Unicode normalization resolves a composed (NFC) request to the decomposed (NFD) names on disk",
+          "status": "passed",
+          "title": "resolves a composed (NFC) request to the decomposed (NFD) names on disk",
+          "duration": 3.4100200000000314,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "Unicode normalization"
+          ],
+          "fullName": "Unicode normalization keeps a new basename when the parent resolves through Unicode equivalence",
+          "status": "passed",
+          "title": "keeps a new basename when the parent resolves through Unicode equivalence",
+          "duration": 3.9462089999999534,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "Unicode normalization"
+          ],
+          "fullName": "Unicode normalization refuses a component that matches two canonically equivalent entries",
+          "status": "passed",
+          "title": "refuses a component that matches two canonically equivalent entries",
+          "duration": 3.0138010000000577,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "Unicode normalization"
+          ],
+          "fullName": "Unicode normalization accepts an NFC spelling of an NFD allowed directory (#1970)",
+          "status": "passed",
+          "title": "accepts an NFC spelling of an NFD allowed directory (#1970)",
+          "duration": 3.7833590000000186,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "Unicode normalization"
+          ],
+          "fullName": "Unicode normalization maps an NFD spelling of an NFC allowed directory onto it, never onto an NFD sibling (#1970)",
+          "status": "passed",
+          "title": "maps an NFD spelling of an NFC allowed directory onto it, never onto an NFD sibling (#1970)",
+          "duration": 3.5758329999999887,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "Unicode normalization"
+          ],
+          "fullName": "Unicode normalization refuses a path that only shares a normalized prefix with the allowed directory's name",
+          "status": "passed",
+          "title": "refuses a path that only shares a normalized prefix with the allowed directory's name",
+          "duration": 1.77465200000006,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "Unicode space separators (#1970)"
+          ],
+          "fullName": "Unicode space separators (#1970) reads a file whose U+202F the request spells as U+0020",
+          "status": "passed",
+          "title": "reads a file whose U+202F the request spells as U+0020",
+          "duration": 3.1291949999999815,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "Unicode space separators (#1970)"
+          ],
+          "fullName": "Unicode space separators (#1970) moves a file whose U+00A0 the request spells as U+0020",
+          "status": "passed",
+          "title": "moves a file whose U+00A0 the request spells as U+0020",
+          "duration": 4.057332000000088,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "Unicode space separators (#1970)"
+          ],
+          "fullName": "Unicode space separators (#1970) prefers the exact spelling when both are on disk",
+          "status": "passed",
+          "title": "prefers the exact spelling when both are on disk",
+          "duration": 3.227861999999959,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "Unicode space separators (#1970)"
+          ],
+          "fullName": "Unicode space separators (#1970) refuses a name that matches two entries differing only in their spaces",
+          "status": "passed",
+          "title": "refuses a name that matches two entries differing only in their spaces",
+          "duration": 2.680186000000049,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        }
+      ],
+      "startTime": 1792972953685,
+      "endTime": 1792972953853.6802,
+      "status": "passed",
+      "message": "",
+      "name": "<ORIGINAL_WORKSPACE>/cvp-pilot/baseline/src/filesystem/__tests__/server-paths.test.ts"
+    }
+  ]
+}

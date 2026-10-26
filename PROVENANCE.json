@@ -1,0 +1,169 @@
+{
+  "export_date": "2026-10-26",
+  "original_immutable_files_verified": 36,
+  "original_evidence_preserved": true,
+  "redaction": "Personal local paths replaced; JSON records reserialized. Original hashes retained.",
+  "files": [
+    {
+      "public_file": "cases/filesystem-baseline/lab/cvp-boundary.test.ts",
+      "original_file": "lab/cvp-boundary.test.ts",
+      "original_sha256": "2b67013b06acf6ab92f730d9ed7380c80d262e50095a150e5d2d305f4540bcf1",
+      "export_sha256": "2b67013b06acf6ab92f730d9ed7380c80d262e50095a150e5d2d305f4540bcf1",
+      "byte_identical": true
+    },
+    {
+      "public_file": "cases/filesystem-baseline/lab/REPEAT.md",
+      "original_file": "lab/REPEAT.md",
+      "original_sha256": "588a26ec270c0ec5512e358393df5646fe766c8bc5f2975749ad542abdfd52bf",
+      "export_sha256": "588a26ec270c0ec5512e358393df5646fe766c8bc5f2975749ad542abdfd52bf",
+      "byte_identical": true
+    },
+    {
+      "public_file": "cases/filesystem-baseline/evidence/environment.json",
+      "original_file": "evidence/environment.json",
+      "original_sha256": "3eeb73f88ceb8ac48a2a07ff1d2f70b09befc8dd7b7085babb3d07bc7f0bb9c0",
+      "export_sha256": "3eeb73f88ceb8ac48a2a07ff1d2f70b09befc8dd7b7085babb3d07bc7f0bb9c0",
+      "byte_identical": true
+    },
+    {
+      "public_file": "cases/filesystem-baseline/evidence/summary.json",
+      "original_file": "evidence/summary.json",
+      "original_sha256": "2a402f935f862e408b3ad289b322e515a1ac9bd31ad96dfea7fe5aef0e5dca65",
+      "export_sha256": "2a402f935f862e408b3ad289b322e515a1ac9bd31ad96dfea7fe5aef0e5dca65",
+      "byte_identical": true
+    },
+    {
+      "public_file": "cases/filesystem-baseline/evidence/pilot-boundary.json",
+      "original_file": "evidence/pilot-boundary.json",
+      "original_sha256": "d7fcd35d3ea8b8e5115f5833016aa926a8b13967d652063dfeb487c7f49aa5b3",
+      "export_sha256": "a0f4e17945168a22cda6ef422b44bba8226de1d6e9ca88dc6eca28d2c115bef8",
+      "byte_identical": false
+    },
+    {
+      "public_file": "cases/filesystem-baseline/evidence/upstream-paths.json",
+      "original_file": "evidence/upstream-paths.json",
+      "original_sha256": "44926e873152688816746b78de41e26aa54ebe3ec7e2e77e8b9322d549ec4133",
+      "export_sha256": "39cc3c4861510dde814ae169974f31a5b3aade293e414585fc33cd4ce743f7a9",
+      "byte_identical": false
+    },
+    {
+      "public_file": "cases/filesystem-baseline/evidence/typecheck.log",
+      "original_file": "evidence/typecheck.log",
+      "original_sha256": "6694a1f41c6729ebcef49882f73d19fcbc822b5ae4b80c0a7b798c62f78f66e3",
+      "export_sha256": "6694a1f41c6729ebcef49882f73d19fcbc822b5ae4b80c0a7b798c62f78f66e3",
+      "byte_identical": true
+    },
+    {
+      "public_file": "cases/escaperoute/reproduce.mjs",
+      "original_file": "cases/stage2-escaperoute/reproduce.mjs",
+      "original_sha256": "2984c591507a9e4ec0a2fa176658408cef35874ffba23e4e8f7668c3d755778b",
+      "export_sha256": "2984c591507a9e4ec0a2fa176658408cef35874ffba23e4e8f7668c3d755778b",
+      "byte_identical": true
+    },
+    {
+      "public_file": "cases/escaperoute/REPRODUCE.md",
+      "original_file": "cases/stage2-escaperoute/REPRODUCE.md",
+      "original_sha256": "7ea89602257c778f3e040be21c424039c0d76184e4e677d899adb458ae667bdc",
+      "export_sha256": "7ea89602257c778f3e040be21c424039c0d76184e4e677d899adb458ae667bdc",
+      "byte_identical": true
+    },
+    {
+      "public_file": "cases/escaperoute/harness/run.mjs",
+      "original_file": "cases/stage2-escaperoute/harness/run.mjs",
+      "original_sha256": "c33733061dc6ed3e01679c008eee5aa0dab2a8100a5e101d210054815b05996d",
+      "export_sha256": "c33733061dc6ed3e01679c008eee5aa0dab2a8100a5e101d210054815b05996d",
+      "byte_identical": true
+    },
+    {
+      "public_file": "cases/escaperoute/harness/assertions.test.mjs",
+      "original_file": "cases/stage2-escaperoute/harness/assertions.test.mjs",
+      "original_sha256": "e264fef660276b35cf0f4959880cf514e0de49ff13de5dfd501cec2ee139b0d1",
+      "export_sha256": "e264fef660276b35cf0f4959880cf514e0de49ff13de5dfd501cec2ee139b0d1",
+      "byte_identical": true
+    },
+    {
+      "public_file": "cases/escaperoute/harness/package.json",
+      "original_file": "cases/stage2-escaperoute/harness/package.json",
+      "original_sha256": "6f191df4b9ad98d7518e194d17d9a4bcd048b180c07cbf594fe56fea4c228890",
+      "export_sha256": "5ff4147c63cf21f9d239c67f0966f9f55b8aec053654ee5b9534d927e36d6097",
+      "byte_identical": false
+    },
+    {
+      "public_file": "cases/escaperoute/harness/package-lock.json",
+      "original_file": "cases/stage2-escaperoute/harness/package-lock.json",
+      "original_sha256": "76e7ceed16579c25a792767acfc47fcb2f7fb89e888de43b2dfde3ae0fa61e8e",
+      "export_sha256": "76e7ceed16579c25a792767acfc47fcb2f7fb89e888de43b2dfde3ae0fa61e8e",
+      "byte_identical": true
+    },
+    {
+      "public_file": "cases/escaperoute/servers/affected/package.json",
+      "original_file": "cases/stage2-escaperoute/servers/affected/package.json",
+      "original_sha256": "46d0e262423a6f9155e382151d4e3578b9fab6401e3bda5d525d50d844922027",
+      "export_sha256": "a0afde093235b78268a6c7538b634a2e0d848ef6db9e91e08624c0b36319115e",
+      "byte_identical": false
+    },
+    {
+      "public_file": "cases/escaperoute/servers/fixed/package.json",
+      "original_file": "cases/stage2-escaperoute/servers/fixed/package.json",
+      "original_sha256": "ff1c01e0e803a5bddb8c06f80b9767fe7ad5307e42ff06f59d02957e7260192c",
+      "export_sha256": "034a88d5e728dae2fb31fb71e539920eb6909dbda3ecec2d82da942940e88a0e",
+      "byte_identical": false
+    },
+    {
+      "public_file": "cases/escaperoute/servers/baseline/package.json",
+      "original_file": "cases/stage2-escaperoute/servers/baseline/package.json",
+      "original_sha256": "e40d4f5b4ae4288582ab44fc660e465920e28ab6ed3dca1e2cc686b90caa3adf",
+      "export_sha256": "a5ded9cd16e0efaa70f116bfeb92ac1f986651f9f9b4f065e0242ec4be32eee4",
+      "byte_identical": false
+    },
+    {
+      "public_file": "cases/escaperoute/evidence/results.json",
+      "original_file": "cases/stage2-escaperoute/evidence/results.json",
+      "original_sha256": "b4844f44fb8818a22e6bf5d1f434d49beeeb70b2fa45373e008f1d58a4a34794",
+      "export_sha256": "b7465a77590902b05493d3aca625e051fe0773b82505110006c51e6a957a9901",
+      "byte_identical": false
+    },
+    {
+      "public_file": "cases/escaperoute/evidence/run-env.json",
+      "original_file": "cases/stage2-escaperoute/evidence/run-env.json",
+      "original_sha256": "2cae49564f6e8de22446e6851a2b437668adba1c2b8aa247dfe6b76dfb4711f3",
+      "export_sha256": "b4a99909354eeb6dc0bfa2e8b81a34065219bc490e67e2f742a3348eb0eebadb",
+      "byte_identical": false
+    },
+    {
+      "public_file": "cases/escaperoute/evidence/raw/affected.json",
+      "original_file": "cases/stage2-escaperoute/evidence/raw/affected.json",
+      "original_sha256": "9bfe528dd0f79bb4023c2253801effa1acdeb17859fc72e876204f3e497dba48",
+      "export_sha256": "4a05a2af72d565026aadf6b3e5e2b90f55263b72a591c78f0f3d1fdd178da5e8",
+      "byte_identical": false
+    },
+    {
+      "public_file": "cases/escaperoute/evidence/raw/fixed.json",
+      "original_file": "cases/stage2-escaperoute/evidence/raw/fixed.json",
+      "original_sha256": "356ed3941f6bd3e0d84c617d157e6ea1adc1213cbfd451633886fff54a5b855b",
+      "export_sha256": "0a080e05e835ada8df9452188fb59590e9e9d771d50f0ea10f1b3008470b4d95",
+      "byte_identical": false
+    },
+    {
+      "public_file": "cases/escaperoute/evidence/raw/baseline.json",
+      "original_file": "cases/stage2-escaperoute/evidence/raw/baseline.json",
+      "original_sha256": "396597b8d471660fef48456bf8191ac23f41fd0a5f39041aa7326bf92a209d81",
+      "export_sha256": "8362deb81f9ab9f3438f6a6a28745ea30c6c5e25135e17bc891da411b5be0d26",
+      "byte_identical": false
+    },
+    {
+      "public_file": "cases/escaperoute/audit/fresh-results.json",
+      "original_file": "cases/stage2-escaperoute/audit/fresh-results.json",
+      "original_sha256": "b4844f44fb8818a22e6bf5d1f434d49beeeb70b2fa45373e008f1d58a4a34794",
+      "export_sha256": "b7465a77590902b05493d3aca625e051fe0773b82505110006c51e6a957a9901",
+      "byte_identical": false
+    },
+    {
+      "public_file": "cases/escaperoute/audit/fresh-run-env.json",
+      "original_file": "cases/stage2-escaperoute/audit/fresh-run-env.json",
+      "original_sha256": "b10a57e3a375acb6786c7e005eed55e6b3bc66d94d6af4f09acbcecb5e23a772",
+      "export_sha256": "1ee5dd75ae4fa555a33b2552d1d4e2c20d4cac8aa2c860631a42117d1252ecf2",
+      "byte_identical": false
+    }
+  ]
+}

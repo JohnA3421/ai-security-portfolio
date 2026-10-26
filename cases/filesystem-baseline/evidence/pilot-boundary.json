@@ -1,0 +1,148 @@
+{
+  "numTotalTestSuites": 2,
+  "numPassedTestSuites": 2,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 9,
+  "numPassedTests": 9,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "snapshot": {
+    "added": 0,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0,
+    "didUpdate": false
+  },
+  "startTime": 1792972994080,
+  "success": true,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "CVP pilot: configured folder boundary"
+          ],
+          "fullName": "CVP pilot: configured folder boundary reads a marker inside the allowed directory",
+          "status": "passed",
+          "title": "reads a marker inside the allowed directory",
+          "duration": 36.266200000000026,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "CVP pilot: configured folder boundary"
+          ],
+          "fullName": "CVP pilot: configured folder boundary writes inside the allowed directory and changes the actual file",
+          "status": "passed",
+          "title": "writes inside the allowed directory and changes the actual file",
+          "duration": 6.267652999999996,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "CVP pilot: configured folder boundary"
+          ],
+          "fullName": "CVP pilot: configured folder boundary denies an absolute outside read without returning the outside marker",
+          "status": "passed",
+          "title": "denies an absolute outside read without returning the outside marker",
+          "duration": 4.552510000000041,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "CVP pilot: configured folder boundary"
+          ],
+          "fullName": "CVP pilot: configured folder boundary denies a literal ../ traversal read without returning the outside marker",
+          "status": "passed",
+          "title": "denies a literal ../ traversal read without returning the outside marker",
+          "duration": 3.65782200000001,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "CVP pilot: configured folder boundary"
+          ],
+          "fullName": "CVP pilot: configured folder boundary denies a sibling sharing the allowed directory's prefix",
+          "status": "passed",
+          "title": "denies a sibling sharing the allowed directory's prefix",
+          "duration": 3.3332449999999767,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "CVP pilot: configured folder boundary"
+          ],
+          "fullName": "CVP pilot: configured folder boundary denies a symlink inside allowed that points to an outside file",
+          "status": "passed",
+          "title": "denies a symlink inside allowed that points to an outside file",
+          "duration": 3.3739760000000274,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "CVP pilot: configured folder boundary"
+          ],
+          "fullName": "CVP pilot: configured folder boundary denies an outside overwrite and leaves the original bytes unchanged",
+          "status": "passed",
+          "title": "denies an outside overwrite and leaves the original bytes unchanged",
+          "duration": 4.038372999999979,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "CVP pilot: configured folder boundary"
+          ],
+          "fullName": "CVP pilot: configured folder boundary denies outside file creation and leaves no new file",
+          "status": "passed",
+          "title": "denies outside file creation and leaves no new file",
+          "duration": 3.883714999999995,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        },
+        {
+          "ancestorTitles": [
+            "CVP pilot: configured folder boundary"
+          ],
+          "fullName": "CVP pilot: configured folder boundary denies a move outside and preserves the source without creating the destination",
+          "status": "passed",
+          "title": "denies a move outside and preserves the source without creating the destination",
+          "duration": 7.054760999999985,
+          "failureMessages": [],
+          "meta": {},
+          "tags": []
+        }
+      ],
+      "startTime": 1792972994431,
+      "endTime": 1792972994503.0547,
+      "status": "passed",
+      "message": "",
+      "name": "<ORIGINAL_WORKSPACE>/cvp-pilot/baseline/src/filesystem/__tests__/cvp-boundary.test.ts"
+    }
+  ]
+}
